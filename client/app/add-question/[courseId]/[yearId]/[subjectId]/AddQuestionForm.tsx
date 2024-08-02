@@ -104,7 +104,7 @@
 //         if (question) {
 //             setQuestionText(question.questionText);
 //             setAnswerText(question.answerText);
-
+            
 //             setVideoLink(question.videoLink);
 //             setQuestionType(question.questionImage ? 'image' : 'text');
 //             setAnswerType(question.answerImage ? 'image' : 'text');
@@ -400,13 +400,13 @@ const AddQuestionForm: React.FC<AddQuestionFormProps> = ({ courseId, yearId, sub
     const [questionText, setQuestionText] = useState('');
     const [answerText, setAnswerText] = useState('');
     const [videoLink, setVideoLink] = useState('');
-    const [questionImage, setQuestionImage] = useState < File | null > (null);
-    const [answerImage, setAnswerImage] = useState < File | null > (null);
+    const [questionImage, setQuestionImage] = useState<File | null>(null);
+    const [answerImage, setAnswerImage] = useState<File | null>(null);
     const [questionType, setQuestionType] = useState('text');
     const [answerType, setAnswerType] = useState('text');
     const [isFormVisible, setIsFormVisible] = useState(false);
     const [isEditMode, setIsEditMode] = useState(false);
-    const [editQuestionId, setEditQuestionId] = useState < string | null > (null);
+    const [editQuestionId, setEditQuestionId] = useState<string | null>(null);
 
     const [addQuestionToSubject, { isLoading: isAdding }] = useAddQuestionToSubjectMutation();
     const { data: questionsData, refetch: refetchQuestions, isFetching: isFetchingQuestions } = useGetQuestionsToSubjectQuery({
@@ -785,7 +785,7 @@ const AddQuestionForm: React.FC<AddQuestionFormProps> = ({ courseId, yearId, sub
                             </tr>
                         </thead>
                         <tbody>
-                            {questionsData?.questions.map((question: IQuestion, index: number) => (
+                            {questionsData?.questions.map((question:IQuestion, index:number) => (
                                 <tr key={question._id.toString()} className="even:bg-gray-50">
                                     <td className="border px-4 py-2">{index + 1}</td>
                                     <td className="border px-4 py-2">{question.questionText}</td>
