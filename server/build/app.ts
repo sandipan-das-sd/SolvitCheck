@@ -29,7 +29,7 @@ exports.app.use((0, express_fileupload_1.default)({
     tempFileDir: '/tmp/'
 }));
 exports.app.use((0, cors_1.default)({
-    origin: ["https://www.solvit.live"],
+    origin: ["http://localhost:3000"],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
