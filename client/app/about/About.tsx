@@ -20,7 +20,7 @@ const About = () => {
           <br />
           As the founder and CEO of Nill-Ed I know firsthand the challenges
           that come with learning and growing in the programming industry.
-          That&apos;s why I created E-learning &ndash; to provide new
+          That&apos;s why I created SolviT &ndash; to provide new
           programmers with the resources and support they need to succeed.
           <br />
           <br />
@@ -37,19 +37,19 @@ const About = () => {
           access the tools and knowledge they need to succeed.
           <br />
           <br />
-          But E-learning is more than just a community &ndash; we&apos;re a
+          But SolviT is more than just a community &ndash; we&apos;re a
           family. Our supportive community of like-minded individuals is here to
           help you every step of the way, whether you&apos;re just starting out
           or looking to take your skills to the next level.
           <br />
           <br />
-          With E-learning by your side, there&apos;s nothing standing between
+          With SolviT by your side, there&apos;s nothing standing between
           you and your dream job. Our courses and community will provide you
           with the guidance, support, and motivation you need to unleash your
           full potential and become a skilled programmer.
           <br />
           <br />
-          So what are you waiting for? Join the E-learning family today and
+          So what are you waiting for? Join the SolviT family today and
           let&apos;s conquer the programming industry together! With our
           affordable courses, informative videos, and supportive community, the
           sky&apos;s the limit.
@@ -57,7 +57,7 @@ const About = () => {
         <br />
         <span className="text-[22px]">Shahriarsajeeb&apos;s</span>
         <h5 className="text-[18px] font-Poppins">
-          Founder and CEO of E-learning
+          Founder and CEO of SolviT
         </h5>
         <br />
         <br />
