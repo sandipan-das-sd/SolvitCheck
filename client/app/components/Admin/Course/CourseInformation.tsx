@@ -74,7 +74,7 @@ const CourseInformation: FC<Props> = ({
     <div className="w-[80%] m-auto mt-24">
       <form onSubmit={handleSubmit} className={`${styles.label}`}>
         <div>
-          <label htmlFor="">Subject Name</label>
+          <label htmlFor="">Subject Name(E.G:-Physics)</label>
           <input
             type="name"
             name=""
@@ -162,7 +162,7 @@ const CourseInformation: FC<Props> = ({
             />
           </div>
           <div className="w-[50%]">
-            <label className={`${styles.label} w-[50%]`}>
+            {/* <label className={`${styles.label} w-[50%]`}>
               Course Categories
             </label>
             <select
@@ -187,7 +187,7 @@ const CourseInformation: FC<Props> = ({
                     {item.title}
                   </option>
                 ))}
-            </select>
+            </select> */}
           </div>
         </div>
         <br />
