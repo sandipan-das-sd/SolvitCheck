@@ -6,19 +6,19 @@ const About = () => {
     <div className="text-black dark:text-white">
       <br />
       <h1 className={`${styles.title} 800px:!text-[45px]`}>
-        What is <span className="text-gradient">E-Learning?</span>
+        What is <span className="text-gradient">Nill-Ed?</span>
       </h1>
 
       <br />
       <div className="w-[95%] 800px:w-[85%] m-auto">
         <p className="text-[18px] font-Poppins">
           Are you ready to take your programming skills to the next level? Look
-          no further than E-learning, the premier programming community
+          no further than Nill-Ed the premier programming community
           dedicated to helping new programmers achieve their goals and reach
           their full potential.
           <br />
           <br />
-          As the founder and CEO of E-learning, I know firsthand the challenges
+          As the founder and CEO of Nill-Ed I know firsthand the challenges
           that come with learning and growing in the programming industry.
           That&apos;s why I created E-learning &ndash; to provide new
           programmers with the resources and support they need to succeed.
@@ -31,7 +31,7 @@ const About = () => {
           industry, without breaking the bank.
           <br />
           <br />
-          At E-learning, we believe that price should never be a barrier to
+          At Nill-Ed we believe that price should never be a barrier to
           achieving your dreams. That&apos;s why our courses are priced low
           &ndash; so that anyone, regardless of their financial situation, can
           access the tools and knowledge they need to succeed.
