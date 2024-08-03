@@ -215,7 +215,8 @@ const CourseDetails = ({
           </div>
           <div className="w-full 800px:w-[35%] relative">
             <div className="sticky top-[100px] left-0 z-50 w-full">
-              <CoursePlayer videoUrl={data?.demoUrl} title={data?.title} />
+              {/* Introduction Video of Course */}
+              <CoursePlayer videoUrl={data?.demoUrl} title={data?.title} /> 
               <div className="flex items-center">
                 <h1 className="pt-5 text-[25px] text-black dark:text-white">
                   {data.price === 0 ? "Free" : data.price + "$"}
@@ -247,16 +248,16 @@ const CourseDetails = ({
               </div>
               <br />
               <p className="pb-1 text-black dark:text-white">
-                • Source code included
+                • Video Solutions of Past 10 Years Questions of WBJEE
               </p>
               <p className="pb-1 text-black dark:text-white">
-                • Full lifetime access
+                • Text Solutions of Past 10 Years Questions of WBJEE
               </p>
               <p className="pb-1 text-black dark:text-white">
-                • Certificate of completion
+                • Mock Test
               </p>
               <p className="pb-3 800px:pb-1 text-black dark:text-white">
-                • Premium Support
+                • Doubt Classes Of Questions and Answers of WBJEE
               </p>
             </div>
           </div>
