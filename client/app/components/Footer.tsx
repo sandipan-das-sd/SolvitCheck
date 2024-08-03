@@ -98,7 +98,7 @@ const Footer = (props: Props) => {
                   href=""
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
-                  github
+                 Facebook
                 </Link>
               </li>
             </ul>
