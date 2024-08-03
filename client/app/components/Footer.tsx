@@ -102,8 +102,11 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
             </ul>
+
           </div>
+
           <div>
+            
             <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">
               Contact Info
             </h3>
