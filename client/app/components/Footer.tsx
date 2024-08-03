@@ -108,15 +108,15 @@ const Footer = (props: Props) => {
               Contact Info
             </h3>
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Call Us: 1-885-665-2022
+              Call Us: 91-8335019404
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Address: +7011 Vermont Ave, Los Angeles, CA 90044
+              Address: 218,Basudevpur Road Saratpally Shyamnagar 
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
-              Mail Us: hello@solvit.com
+              Mail Us: solvitwbjee@gmail.com
             </p>
           </div>
         </div>
