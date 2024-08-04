@@ -665,9 +665,9 @@ export const AddQuestToSubject = CatchAsyncError(async (req: Request, res: Respo
     if (answerImage) {
       const result = await cloudinary.v2.uploader.upload((answerImage as any).tempFilePath, {
         folder: 'answers',
-        transformation: [
-          { width: 800, height: 600, crop: 'limit', quality: 'auto',format:'auto' }, // Optimize image size and quality
-        ],
+        // transformation: [
+        //   { width: 800, height: 600, crop: 'limit', quality: 'auto',format:'auto', }, // Optimize image size and quality
+        // ],
       });
       answerImageUrl = result.secure_url;
       answerImagePublicId = result.public_id;
