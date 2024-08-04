@@ -655,6 +655,9 @@ export const AddQuestToSubject = CatchAsyncError(async (req: Request, res: Respo
     if (questionImage) {
       const result = await cloudinary.v2.uploader.upload((questionImage as any).tempFilePath, {
         folder: 'questions',
+        transformation: [
+          { width: 800, height: 600, crop: 'limit', quality: 'auto', format: 'auto', }, // Optimize image size and quality
+        ],
       });
       questionImageUrl = result.secure_url;
       questionImagePublicId = result.public_id;
@@ -665,9 +668,9 @@ export const AddQuestToSubject = CatchAsyncError(async (req: Request, res: Respo
     if (answerImage) {
       const result = await cloudinary.v2.uploader.upload((answerImage as any).tempFilePath, {
         folder: 'answers',
-        // transformation: [
-        //   { width: 800, height: 600, crop: 'limit', quality: 'auto',format:'auto', }, // Optimize image size and quality
-        // ],
+        transformation: [
+          { width: 800, height: 600, crop: 'limit', quality: 'auto',format:'auto', }, // Optimize image size and quality
+        ],
       });
       answerImageUrl = result.secure_url;
       answerImagePublicId = result.public_id;
