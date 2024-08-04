@@ -149,8 +149,14 @@ export const createOrder = CatchAsyncError(
             day: "numeric",
           }),
         },
-        
+
       };
+
+      
+
+
+
+
 
       const html = await ejs.renderFile(
         path.join(__dirname, "../mails/order-confirmation.ejs"),
