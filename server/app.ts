@@ -28,7 +28,7 @@ app.use(fileUpload({
 }));
 app.use(
     cors({
-        origin: ["http://solvit.live","https://solvit.live"],
+        origin: ["https://solvit.live"],
         methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
         allowedHeaders: ['Content-Type', 'Authorization'],
         credentials: true,
