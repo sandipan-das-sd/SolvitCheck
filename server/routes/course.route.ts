@@ -129,7 +129,7 @@ courseRouter.post(
 //get the year
   
 
-courseRouter.get("/course/:courseId/years", isAutheticated, authorizeRoles("admin"), GetYearsOfCourse);
+courseRouter.get("/course/:courseId/years", isAutheticated, authorizeRoles("user"), GetYearsOfCourse);
 
 
 //add subject to year
@@ -195,7 +195,7 @@ courseRouter.delete(
 courseRouter.get(
   "/course/:courseId/year/:yearId/subjects",
   isAutheticated,
-  authorizeRoles("admin"),
+  authorizeRoles("user"),
  GetAllSubjects
 );
 
@@ -205,7 +205,7 @@ courseRouter.get('/course/:courseId/year/:yearId/subject/:subjectId/questions', 
 courseRouter.delete(
   "/course/:courseId/year/:yearId/subject/:subjectId/question/:questionId",
   isAutheticated,
-  authorizeRoles("admin"),
+  authorizeRoles("user"),
   DeleteQuestion
 );
 //reorder question
